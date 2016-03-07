@@ -1,0 +1,26 @@
+<header>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">DOGGO RENTALS</a><!--Title here-->
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><!--Link all pages here-->
+                    <li><%= link_to "Home", "/" %></li>
+                    <li><%= link_to "Admin", "/admin/index" %></li>
+                    <li><%= link_to "Products", "/products/index" %></li>
+                    <li style="position:absolute ; right: 15%"><%= link_to "Sign In", "/admin/index" %></li>
+                    <li style="position:absolute ; right: 10%"> <%=link_to "SIGN OUT", destroy_user_session_path, {method: "delete"} %></li>
+
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+</header>

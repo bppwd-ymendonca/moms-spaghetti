@@ -1,0 +1,90 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets"
+@import "bootstrap"
+/*
+ *The CSS for everything goes in here
+ */
+
+*
+    color: white
+body
+    background-image: url(footer_lodyas.png)
+
+    
+footer
+    bottom: 1%
+    left: 0
+    right: 0
+    height: 50px
+    width: 100%
+    background-color: #252525 
+    color: white
+    text-align: center
+
+h1
+    color: white
+    text-align: center
+    
+#productListing
+    background-color: red
+    
+#hometable
+    float: left
+    width: 59.5%
+    position: absolute
+    left: 20.25%
+    
+#hometable td
+    text-align: center
+    vertical-align: center
+    color: white
+    background-color: #252525
+
+    height: 60px
+    font-size: 30px
+
+#hometable td:hover
+    background-color: #3f3f3f
+
+.contentText
+    margin-left: 15%
+    background-color: #191919
+    color: white
+    width: 70%
+    padding-bottom: 1%
+.contentText p
+    width: 90%
+    margin-left: 5%
+    margin-right: 5%
+
+.grid
+    display: inline-block
+    background-color: #2D2D2D
+    width: 20%
+    height: 40%
+    margin-left: 2.25%
+    margin-right: 2.25%
+    
+#signin
+    display: inline-block
+    margin-left: 40%
+   
+    padding: 50px
+    text-align: center
+    background-color: rgba(37,37,37,0.75)
+.field
+    color: black
